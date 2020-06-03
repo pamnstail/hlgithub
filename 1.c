@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+{
+	printf("hello world");
+	
+	return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+	int a = 10,b = 5;
+
+	printf("%d", a+b);
+	printf("%d", a*b);
+	printf("%d", a-b);
+	printf("%d", a/b);
+
+	return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+	int a = 11,b = 5;
+
+	printf("%d" , a%b);
+
+	return 0;
+}
